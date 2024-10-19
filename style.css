@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #002244;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 2em;
+}
+.container{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #d1e8fc;
+    border-radius: 7px;
+    box-shadow: 0px 0px 1px 1px rgb(140, 140, 140);
+    text-align: center;
+}
+.buttonGroup{
+  margin: 5vh;
+}
+.btns{
+    background-color: blanchedalmond;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 7px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+.yesbtn{
+    left: 40vw;
+    top: 55vh;
+    background-color: #4CAF50;
+}
+
+.yesbtn:hover{
+    background-color: #3e8f41;
+}
+
+.nobtn{
+    left: 50vw;
+    top: 55vh;
+    background-color: #ff1010;
+}
+
